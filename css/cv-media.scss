@@ -1,0 +1,222 @@
+ /* import start */
+ @import 'variables';
+
+ /* import end */
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+
+    // common start
+    body {
+        font-size: 8px;
+        line-height: 12px;
+    }
+    h1 {
+        font-size: 10px !important;
+    }
+    h3 {
+        font-size: 10px !important;
+    }
+    h5 {
+        font-size: 9px !important;
+    }
+    // common end
+    // profile start
+    .profile {
+        padding-top: 18px;
+        padding-bottom: 18px;
+
+        .profile_left {
+
+            p {
+                a {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    // profile end
+    // education start
+    .education {
+        padding-bottom: 13px;
+
+        .education_item {
+            padding-top: 3px;
+            padding-bottom: 3px;
+
+            .custom_width_education {
+                width: 5%;
+            }
+            .custom_width_education_adjust {
+                width: calc(25% + .33%);
+            }
+
+            .education_bottom_left {
+                p {
+                    i {
+                        font-size: 4px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    // education end
+    // experiances start
+    .experiance {
+        .cutom_margin_left {
+            margin-left: 15px;
+        }
+    }
+    // experiances end
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+    // common start
+    body {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    h1 {
+        font-size: 15px !important;
+    }
+    h3 {
+        font-size: 15px !important;
+    }
+    h5 {
+        font-size: 14px !important;
+    }
+    // common end
+    // profile start
+    .profile {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .profile_left {
+            p {
+               
+                a {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    // profile end
+    // education start
+    .education {
+        padding-bottom: 15px;
+
+        .education_item {
+            padding-top: 6px;
+            padding-bottom: 6px;
+
+            .custom_width_education {
+                width: 5%;
+            }
+            .custom_width_education_adjust {
+                width: calc(25% + 3.33%);
+            }
+
+            .education_bottom_left {
+                p {
+                    i {
+                        font-size: 6px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    // education end
+    // experiances start
+    .experiance {
+        .cutom_margin_left {
+            margin-left: 25px;
+        }
+    }
+    // experiances end
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+
+    // common start
+    body {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    h1 {
+        font-size: 18px !important;
+    }
+    h3 {
+        font-size: 18px !important;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    // common end
+     // profile start
+     .profile {
+         padding-top: 40px;
+         padding-bottom: 40px;
+
+         .profile_left {
+
+             p {
+
+                 a {
+                     display: block;
+                 }
+             }
+         }
+     }
+
+     // profile end
+    // education start
+    .education {
+        padding-bottom: 20px;
+
+        .education_item {
+            padding-top: 8px;
+            padding-bottom: 8px;
+
+            .education_bottom_left {
+                p {
+                    i {
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    // education end
+    // experiances start
+    .experiance {
+        .cutom_margin_left {
+            margin-left: 30px;
+        }
+    }
+    // experiances end
+ }
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+
+ }
+
+ /* Extra extra large devices (extra large desktops, 1400px and up) */
+ @media (min-width: 1400px) {
+
+ }

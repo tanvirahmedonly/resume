@@ -1,0 +1,135 @@
+/* import start */
+@import 'variables';
+/* import end */
+/* common start */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Merriweather-Regular;
+    font-size: 16px;
+    line-height: 26px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+h1, h2, h4, h5, h6 {
+    font-family: $fontSecondaryBold;
+}
+h1 {
+    font-size: 20px !important;
+}
+h3 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 18px;
+}
+
+::selection {
+    background: $colorSecondary !important;
+    color: $colorPrimary !important;
+}
+/* common end */
+// profile start
+.profile {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .profile_left {
+        h1 {
+            padding-bottom: 2px;
+            color: $colorSecondary !important;
+        }
+        p {
+            a {
+                color: $colorSecondary;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .profile_right {
+        p {
+            text-align: right;
+            a {
+                color: $colorSecondary;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+// profile end
+// summary start
+.summary {
+    .summary_text {
+        text-align: center;
+    }
+}
+// summary end
+// education start
+.education {
+    padding-bottom: 30px;
+    .education_top {
+        h3 {
+            padding-bottom: 2px;
+            border-bottom: 1px solid $colorSecondary;
+        }
+    }
+    .education_item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        .custom_width_education {
+            width: 4%;
+        }
+        .custom_width_education_adjust {
+            width: calc(25% + 4.33%);
+            padding-left: 0px;
+        }
+        .education_bottom_left {
+            p {
+                i {
+                    color: $colorSecondary;
+                    font-size: 10px;
+                }
+            }
+        }
+        .education_bottom_center {
+            p {
+                font-family: $fontSecondaryItalic;
+            }
+        }
+        .education_bottom_right {
+            p {
+                text-align: right;
+                &:last-child {
+                    font-family: $fontSecondaryItalic;
+                }
+            }
+        }
+    }
+
+}
+// education end
+// skills start
+.skills {
+    .skills_bottom_right {
+        p {
+            font-family: $fontSecondary !important;
+        }
+    }
+}
+// skills end
+// experiances start
+.experiance {
+    .cutom_margin_left {
+        margin-left: 35px;
+    }
+}
+// experiances end

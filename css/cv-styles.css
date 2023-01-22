@@ -1,0 +1,128 @@
+/* import start */ /* fonts start */
+@font-face {
+  font-family: Merriweather-Regular;
+  src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+@font-face {
+  font-family: Merriweather-Italic;
+  src: url(../fonts/Merriweather/Merriweather-Italic.ttf);
+}
+@font-face {
+  font-family: Merriweather-Bold;
+  src: url(../fonts/Merriweather/Merriweather-Bold.ttf);
+}
+/* fonts end */
+/* import end */
+/* common start */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Merriweather-Regular;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 0;
+}
+
+h1, h2, h4, h5, h6 {
+  font-family: "Merriweather-Bold";
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+::-moz-selection {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+::selection {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* common end */
+.profile {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.profile .profile_left h1 {
+  padding-bottom: 2px;
+  color: #000000 !important;
+}
+.profile .profile_left p a {
+  color: #000000;
+  text-decoration: none;
+}
+.profile .profile_left p a:hover {
+  text-decoration: underline;
+}
+.profile .profile_right p {
+  text-align: right;
+}
+.profile .profile_right p a {
+  color: #000000;
+  text-decoration: none;
+}
+.profile .profile_right p a:hover {
+  text-decoration: underline;
+}
+
+.summary .summary_text {
+  text-align: center;
+}
+
+.education {
+  padding-bottom: 30px;
+}
+.education .education_top h3 {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #000000;
+}
+.education .education_item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.education .education_item .custom_width_education {
+  width: 4%;
+}
+.education .education_item .custom_width_education_adjust {
+  width: 29.33%;
+  padding-left: 0px;
+}
+.education .education_item .education_bottom_left p i {
+  color: #000000;
+  font-size: 10px;
+}
+.education .education_item .education_bottom_center p {
+  font-family: "Merriweather-Italic";
+}
+.education .education_item .education_bottom_right p {
+  text-align: right;
+}
+.education .education_item .education_bottom_right p:last-child {
+  font-family: "Merriweather-Italic";
+}
+
+.skills .skills_bottom_right p {
+  font-family: "Merriweather-Regular" !important;
+}
+
+.experiance .cutom_margin_left {
+  margin-left: 35px;
+}/*# sourceMappingURL=cv-styles.css.map */
